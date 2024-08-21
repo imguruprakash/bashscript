@@ -1,0 +1,8 @@
+#!/bin/bash
+#
+SOURCEPATH=/tmp/gp/
+DESTINATION=/tmp/mk/
+
+cp -r $SOURCEPATH/*  $DESTINATION
+
+echo "successfully copied"
